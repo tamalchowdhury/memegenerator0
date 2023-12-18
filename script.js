@@ -19,3 +19,7 @@ function updateMemeCaption(event) {
   memeText.textContent = value
 
 }
+
+const downloadButton = document.querySelector("#download")
+
+downloadButton.addEventListener("click", downloadImage)
