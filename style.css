@@ -1,7 +1,10 @@
 #meme {
   background: plum;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   width: 600px;
-  height: 600px;
+  height: 400px;
   border: 3px solid purple;
   text-align: center;
   display: flex;
